@@ -1,5 +1,4 @@
 'use strict';
 
-const urlParams = new URLSearchParams(window.location.search);
-const day = urlParams.get('day');
+const day = document.querySelector('#attivita_data_filtro').value;
 chronos.setTitle(`Timesheet ${day}`);
