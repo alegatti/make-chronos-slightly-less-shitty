@@ -10,6 +10,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     // Inject script only on page load
     if (changeInfo.status !== 'complete') return;
 
+    injectScript(tab, 'shared');
     if (tab.url.indexOf('/main/pannello/main') !== -1) {
         injectScript(tab, 'homepage');
     }

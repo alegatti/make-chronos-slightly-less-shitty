@@ -1,6 +1,6 @@
 'use strict';
 
-console.log('Running "Make Chronos slightly less shitty"');
+chronos.setTitle('Homepage');
 
 // Select the first "lavorazione" if there is only one
 document.querySelectorAll('.slot-times select').forEach(select => {
