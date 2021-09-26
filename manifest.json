@@ -1,0 +1,16 @@
+{
+    "name": "Make Chronos slightly less shitty",
+    "description": "Simple chrome extension that tries to make Chronos slightly less shitty",
+    "version": "0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://cloud6.dagomedia.com/"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
