@@ -2,7 +2,10 @@
 
 const SCRIPTS_TO_INJECT = {
     '/main/pannello/main': ['homepage'],
-    '/main/commesse/edit_commessa': ['commessa'],
+    '/main/commesse/edit_commessa': ['edit_commessa'],
+    '/main/commesse/lista_commesse': ['lista_commesse'],
+    '/main/attivita/lista_attivita': ['timesheet_detail'],
+    '/reports/report_controllo_tempi/main': ['timesheet_overview'],
 };
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
