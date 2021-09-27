@@ -5,6 +5,7 @@ const SCRIPTS_TO_INJECT = {
     '/main/commesse/edit_commessa': ['edit_commessa'],
     '/main/commesse/lista_commesse': ['lista_commesse'],
     '/main/attivita/lista_attivita': ['timesheet_detail'],
+    '/main/attivita/edit_attivita': ['edit_attivita'],
     '/reports/report_controllo_tempi/main': ['timesheet_overview'],
 };
 
