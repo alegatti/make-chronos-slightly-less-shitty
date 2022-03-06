@@ -62,3 +62,18 @@ document.querySelectorAll('.slot-times select').forEach(select => {
         };
     }
 })();
+
+
+// Replace timeshit
+(() => {
+    const replaceShit = (selector) => {
+        const element = document.querySelector(selector);
+        if (!element?.textContent) {
+            console.warn(`Invalid element or textContent for selector "${selector}"`);
+            return;
+        }
+        element.textContent = element.textContent?.replace('sheet', 'shit');
+    }
+    replaceShit('#company_title h2');
+    replaceShit('a[href="https://cloud6.dagomedia.com/hibo/reports/report_controllo_tempi/main"]');
+})();

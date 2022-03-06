@@ -1,3 +1,3 @@
 'use strict';
 
-chronos.setTitle('Timesheet');
+chronos.setTitle('Timeshit');
